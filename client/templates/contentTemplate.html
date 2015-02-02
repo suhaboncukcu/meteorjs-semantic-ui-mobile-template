@@ -1,0 +1,18 @@
+<template name="contentTemplate">
+		<div class="pusher">
+			<div class="ui basic segment">
+
+
+				{{#if homeSession}}
+					{{> home}}
+				{{/if}}		
+
+
+				{{#if searchSession}}
+					{{> search}}
+				{{/if}}		    
+
+
+			</div>
+		</div>
+</template>

@@ -1,0 +1,8 @@
+<template name="mainLayout">
+	{{> yield region="top"}}
+	{{> yield region="left"}}
+	<div class="ui bottom attached segment">
+	{{> yield region="content"}}
+	{{> yield region="footer"}}
+	</div>
+</template>
